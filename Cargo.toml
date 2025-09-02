@@ -5,4 +5,5 @@ edition = "2024"
 
 [dependencies]
 dotenv = "0.15.0"
+rocket = {version = "0.5.1", features = ["json"]}
 tokio = { version = "1.36", features = ["macros", "rt-multi-thread"] }
